@@ -1,1 +1,105 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewpot" content="widht=device-width, initial-scal=1.0">
+    <title>portfolio pessoal</title>
+    <style>
+      body{
+        font-family: Arial, Sans-Serif;
+        line-height: 1.6;
+        background-color: #ffffff;
+        color: #333333;
+        margin: 0;
+        padding: 0;
+        
+      }
+      header, nav , main, footer{
+        padding: 1rem;
+        margin:auto;
+        max-width: 960px;
+        
+      }
+      header{
+        background-color: #004466;
+        color: white;
+      }
+      nav a {
+        margin-right: 15px;
+        color:white;
+        text-decoration: none;
+      }
+      nav a:focus, nav a:hover{
+        text-decoration: underline;
+      }
+      main{
+        padding-top: 1rem;
+      }
+      section {
+        margin-bottom: 2rem;
+      }
+      h1, h2{
+        color: #004466;
+      }
+      img{
+        max-width: 100%;
+        height: auto;
+      }
+      footer {
+        background-color: #eeeeeee;
+        text-align: center;
+        front-size:0.9rem;
+      }
+      .visually-hidden{
+        position: absolute;
+        left: -10000px;
+        top: auto;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+      }
+    </style>
+    </head>
+  <body>
+    <header>
+      <h1>
+        meu portfolio
+      </h1>
+      <nav Arial-label="menu principal">
+        <a href="#sobre"> sobre mim</a>
+        <a href="projetos">projetos</a>
+        <a href="#contato">contato</a>
+      </nav>
+    </header>
+    <main>
+      <section id="sobre">
+        <p>
+          olá ,meu nome é Anibal, sou estudande de T.I com foco em acessebilidade e usabilidade web
+        </p>
+        <img src="https://trechosdavida.com/wp-content/uploads/2023/07/urubu-do-pix-e1689288162138-1024x942.webp"
+       <section>
+      
+      </section id="projetos">
+      <h2>
+        projetos
+      </h2>
+      <article>
+        <h3>
+          projeto pessoal
+        </h3>
+        <p> desenvolvi um site com foco tota em acessebilidade seguindo as diretrizes do projeto de interface</p>
+        
+      </article>
+      </section
+      
+      <section id="contato">
+      <h2> contato </h2>
+      <form aria-label="formulario de contato"> 
+      <labe for="nome"></labe>
+      
+    </main>
+      <h1 class="title">Hello World! </h1>
+      <p id="currentTime"></p>
+      <script src="script.js"></script>
+  </body>
+</html>
